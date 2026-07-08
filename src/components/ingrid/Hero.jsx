@@ -11,7 +11,7 @@ export default function Hero() {
   };
  
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative md:min-h-[700px] md:h-full h-screen md:pt-24 w-full overflow-hidden">
       {/* Background Image with Ken Burns */}
       <motion.div
         initial={{ scale: 1.1 }}
