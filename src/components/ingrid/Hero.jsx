@@ -10,7 +10,7 @@ export default function Hero() {
   };
  
   return (
-    <section className="relative md:min-h-[700px] md:h-full h-screen md:pt-24 w-full overflow-hidden">
+    <section className="relative md:min-h-[700px] md:h-full h-screen md:pt-44 w-full overflow-hidden">
       {/* Background Image with Ken Burns */}
       <motion.div
         initial={{ scale: 1.1 }}
@@ -31,7 +31,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-6 text-center">
         {/* IE Monogram */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
@@ -40,7 +40,7 @@ export default function Hero() {
           <span className="font-display text-6xl md:text-8xl lg:text-9xl font-light text-white/90 tracking-[0.05em]">
             IE
           </span>
-        </motion.div>
+        </motion.div> */}
  
         {/* Thin Rule */}
         <motion.div
@@ -55,11 +55,10 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="font-display text-3xl md:text-5xl lg:text-6xl font-light text-white leading-tight max-w-4xl"
+          className="font-display text-3xl md:text-7xl font-light text-white leading-tight max-w-4xl"
         >
           Ingrid Elliott
-          <br />
-          <em className="font-light">Real Estate</em>
+          Real Estate
         </motion.h1>
  
         {/* Subheadline */}
@@ -67,7 +66,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.2 }}
-          className="mt-6 font-body text-[13px] md:text-sm tracking-[0.2em] uppercase text-white/60 max-w-xl"
+          className="mt-6 font-body text-[13px] md:text-sm tracking-[0.2em] uppercase text-white max-w-xl"
         >
           Boutique Property Management
         </motion.p>
