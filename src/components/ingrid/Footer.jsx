@@ -23,7 +23,7 @@ export default function Footer() {
               IE
             </span>
             <p className="mt-2 font-body text-[11px] tracking-[0.2em] uppercase text-white/30">
-              Ingrid Ellis Real Estate
+              Ingrid Elliott Real Estate
             </p>
             <p className="mt-1 font-body text-[11px] tracking-[0.15em] uppercase text-white/20">
               Boutique Property Management
@@ -66,7 +66,7 @@ export default function Footer() {
         {/* Bottom Row */}
         <div className="mt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-body text-[11px] text-white/20">
-            © {new Date().getFullYear()} Ingrid Ellis Real Estate. All rights reserved.
+            © {new Date().getFullYear()} Ingrid Elliott Real Estate. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a

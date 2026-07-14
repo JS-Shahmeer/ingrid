@@ -20,7 +20,7 @@ const pillars = [
   {
     title: "Premium Tenant Selection",
     description:
-      "Rigorous application assessment including employment verification, rental history checks, reference validation, and financial capacity review. The right tenant protects your investment for years to come.",
+      "Every tenancy application is carefully assessed in accordance with the Residential Tenancies Act and relevant legislation. Through thorough reference checks, verification of employment and income where appropriate, and a review of rental history, we provide rental providers with the information they need to make informed, compliant leasing decisions.",
   },
   {
     title: "Lease Preparation & Execution",
@@ -63,10 +63,10 @@ export default function LeasingServices() {
         <div className="max-w-3xl mx-auto px-6 lg:px-12">
           <FadeIn>
             <p className="font-serif text-2xl text-brand-charcoal font-light leading-relaxed">
-              The tenant you select today shapes the experience of your investment for the years ahead. It is one of the most consequential decisions in property ownership — and it deserves expert attention.
+              The renter you select today shapes the experience of your investment for the years ahead. It is one of the most consequential decisions in property ownership — and it deserves expert attention.
             </p>
             <p className="mt-6 text-sm font-sans font-light text-brand-charcoal/60 leading-relaxed">
-              Ingrid Elliott Real Estate approaches leasing as a considered, quality-driven process — not a rush to fill a vacancy. From the way your property is presented to the thoroughness of each application assessment, every step is designed to secure the right tenant and protect your investment from day one.
+              Ingrid Elliott Real Estate approaches leasing as a considered, quality-driven process — not a rush to fill a vacancy. From the way your property is presented to the thoroughness of each application assessment, every step is designed to secure the right renter and protect your investment from day one.
             </p>
           </FadeIn>
         </div>
@@ -115,7 +115,7 @@ export default function LeasingServices() {
               Get Your Property Leased
             </h2>
             <p className="text-sm font-sans font-light text-white/60 leading-relaxed mb-10 max-w-lg mx-auto">
-              Enquire about our leasing service and discover how quality tenant selection can make all the difference to your investment experience.
+              Enquire about our leasing service and discover how quality renter selection can make all the difference to your investment experience.
             </p>
             <Link
               to="/contact"

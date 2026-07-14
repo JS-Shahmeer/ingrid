@@ -204,11 +204,11 @@ export default function Contact() {
                   alt="Modern office interior for consultations"
                   className="w-full aspect-4/3 object-cover"
                 />
-                <div className="bg-brand-base-alt border border-brand-border h-64 flex items-center justify-center">
+                {/* <div className="bg-brand-base-alt border border-brand-border h-64 flex items-center justify-center">
                   <p className="text-xs tracking-ultra-wide uppercase font-sans text-brand-charcoal/30">
                     Map — Coming Soon
                   </p>
-                </div>
+                </div> */}
               </div>
             </FadeIn>
           </div>

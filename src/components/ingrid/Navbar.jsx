@@ -52,7 +52,7 @@ export default function Navbar() {
               <span className={`hidden md:block font-body text-[11px] tracking-[0.2em] uppercase transition-colors duration-500 ${
                 scrolled ? "text-[#8C7D70]" : "text-white/70"
               }`}>
-                Ingrid Ellis
+                Ingrid Elliott
               </span>
             </button>
  

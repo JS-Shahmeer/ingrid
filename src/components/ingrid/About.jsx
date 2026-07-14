@@ -24,7 +24,7 @@ export default function About() {
             <div className="relative">
               <img
                 src={PORTRAIT}
-                alt="Ingrid Ellis, an elegant and confident woman with decades of real estate expertise"
+                alt="Ingrid Elliott, an elegant and confident woman with decades of real estate expertise"
                 className="w-full h-[450px] md:h-[600px] object-cover object-top"
               />
               {/* Decorative offset border */}
@@ -53,29 +53,19 @@ export default function About() {
             <div className="mt-6 w-12 h-px bg-[#8C7D70]/40" />
  
             <p className="mt-8 font-body text-[16px] md:text-[17px] leading-[1.8] text-[#1A1A1A]/65">
-              With three decades navigating the nuances of premium real estate,
-              Ingrid Ellis brings an unwavering commitment to the art of property
-              stewardship. Having built and led a successful real estate business,
-              she now channels that depth of experience into a singular focus:
-              boutique property management that treats every home as the legacy
-              it truly is.
+              With three decades of navigating the nuances of real estate, Ingrid Elliott understands that an investment property is far more than bricks and mortar—it is an important part of your financial future.
             </p>
  
             <p className="mt-5 font-body text-[16px] md:text-[17px] leading-[1.8] text-[#1A1A1A]/65">
-              Working exclusively with buyers agents, solicitors, and
-              discerning property owners, Ingrid delivers an experience that
-              transcends the transactional — replacing it with trust, precision,
-              and an intimate understanding of what makes a property not just
-              valuable, but remarkable.
+              After building and leading a successful real estate business, Ingrid chose to focus on what she believes matters most: providing boutique property management with a genuinely personal approach. She looks after every home as if it were her own, giving each property the care, attention, and respect it deserves.
             </p>
  
             <blockquote className="mt-10 pl-6 border-l-2 border-[#8C7D70]/30">
               <p className="font-display text-xl md:text-2xl font-light italic text-[#1A1A1A]/75 leading-relaxed">
-                "Every property has a story. My role is to protect and
-                elevate that story for generations."
+                "Great property management isn't just about collecting rent—it's about caring for your home, maximising its long-term value, and making property ownership as stress-free as possible."
               </p>
               <cite className="block mt-3 font-body text-[11px] tracking-[0.2em] uppercase text-[#8C7D70] not-italic">
-                — Ingrid Ellis
+                — Ingrid Elliott
               </cite>
             </blockquote>
  

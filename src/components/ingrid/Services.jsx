@@ -8,7 +8,7 @@ const services = [
     title: "Property Management",
     subtitle: "The Foundation",
     description:
-      "Meticulous care of your investment property with a personal touch that only thirty years of expertise can deliver. From tenant selection to maintenance coordination, every detail is curated.",
+      "Meticulous care of your investment property with a personal touch that only thirty years of expertise can deliver. From renter selection to maintenance coordination, every detail is curated.",
   },
   {
     icon: Shield,
@@ -19,10 +19,10 @@ const services = [
   },
   {
     icon: Handshake,
-    title: "Buyers Agent Liaison",
+    title: "Professional Referral Liaison",
     subtitle: "The Connection",
     description:
-      "Seamless coordination with buyers agents, solicitors, and industry professionals. A single point of contact that brings together every element of the property experience.",
+      "Seamless coordination with accountants, solicitors, sales agents, and trusted industry professionals. A single point of contact connecting rental providers with the right property solutions.",
   },
 ];
  

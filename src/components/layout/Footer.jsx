@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logoLight from "@/assets/images/logo-light.png";
 
 const footerLinks = [
   { label: "Home", path: "/" },
@@ -19,11 +20,13 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-10">
           {/* Brand */}
           <div>
-            <span className="font-display text-3xl font-light text-white/90 tracking-[0.05em]">
-              IE
-            </span>
+            <img
+              src={logoLight}
+              alt="Ingrid Elliott Real Estate"
+              className="h-12 md:h-14 w-auto object-contain"
+            />
             <p className="mt-2 font-body text-[11px] tracking-[0.2em] uppercase text-white/30">
-              Ingrid Ellis Real Estate
+              Ingrid Elliott Real Estate
             </p>
             <p className="mt-1 font-body text-[11px] tracking-[0.15em] uppercase text-white/20">
               Boutique Property Management
@@ -66,7 +69,7 @@ export default function Footer() {
         {/* Bottom Row */}
         <div className="mt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-body text-[11px] text-white/20">
-            © {new Date().getFullYear()} Ingrid Ellis Real Estate. All rights reserved.
+            © {new Date().getFullYear()} Ingrid Elliott Real Estate. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a

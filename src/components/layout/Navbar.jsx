@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import logoDark from "@/assets/images/logo-dark.png";
+import logoLight from "@/assets/images/logo-light.png";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -49,19 +51,11 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-20 md:h-24">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group">
-              <span className={`font-display text-2xl md:text-3xl font-light tracking-wide transition-colors duration-500 ${
-                scrolled ? "text-[#2F2F2F]" : "text-white"
-              }`}>
-                IE
-              </span>
-              <span className={`hidden md:block h-8 w-px transition-colors duration-500 ${
-                scrolled ? "bg-[#8A9A5B]/40" : "bg-white/30"
-              }`} />
-              <span className={`hidden md:block font-body text-[11px] tracking-[0.2em] uppercase transition-colors duration-500 ${
-                scrolled ? "text-[#8A9A5B]" : "text-white/70"
-              }`}>
-                Ingrid Ellis
-              </span>
+              <img
+                src={scrolled ? logoDark : logoLight}
+                alt="Ingrid Elliott Real Estate"
+                className="h-10 md:h-12 w-auto object-contain"
+              />
             </Link>
 
             {/* Desktop Nav */}

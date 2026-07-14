@@ -9,6 +9,7 @@ import PropertyManagement from './pages/PropertyManagement'
 import RentalAppraisals from './pages/RentalAppraisals'
 import Testimonials from './pages/Testimonials'
 import WhyChooseUS from './pages/WhyChooseUS'
+import ForLease from './pages/ForLease'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/for-lease" element={<ForLease />} />
         <Route path="/leasing-services" element={<LeasingServices />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/property-management" element={<PropertyManagement />} />

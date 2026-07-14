@@ -27,9 +27,9 @@ const problems = [
     description: "Maintenance is coordinated promptly through a vetted network of reliable, qualified tradespeople. Issues are resolved, not ignored.",
   },
   {
-    problem: "Difficult or unsuitable tenants",
+    problem: "Difficult or unsuitable renters",
     solution: "Rigorous tenant selection processes",
-    description: "Comprehensive screening including employment, rental history, reference checks, and financial capacity review — every time.",
+    description: "Every tenancy application is carefully assessed in accordance with the Residential Tenancies Act and relevant legislation. We provide rental providers with the information they need to make informed, compliant leasing decisions.",
   },
   {
     problem: "Uncertainty about tenancy legislation",

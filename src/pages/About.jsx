@@ -39,16 +39,13 @@ export default function About() {
                 </h2>
                 <div className="space-y-5 text-sm font-sans font-light text-brand-charcoal/70 leading-relaxed">
                   <p>
-                    Over the past thirty years, Ingrid Elliott has built an intimate understanding of every dimension of the real estate industry — from residential sales and property marketing to agency leadership and business ownership.
+                    For more than thirty years, Ingrid Elliott has been dedicated to helping property owners protect, maintain, and maximise the value of their investment properties. Throughout her career, she has developed a deep understanding of what it takes to successfully manage residential homes while building lasting relationships based on trust, communication, and genuine care.
                   </p>
                   <p>
-                    For fifteen of those years, Ingrid co-owned and directed a successful real estate agency on the sales side of the industry. That experience gave her a rare, comprehensive perspective on how property is valued, positioned, and protected over the long term.
+                    After many years owning and leading a successful real estate business, Ingrid chose to focus exclusively on the area she is most passionate about — property management. Her belief is simple: every investment property deserves personalised attention, proactive management, and a property manager who cares for it as if it were their own.
                   </p>
                   <p>
-                    After selling that business, Ingrid made a deliberate choice: to build something entirely focused on the area of real estate she is most passionate about — property management.
-                  </p>
-                  <p>
-                    Ingrid Elliott Real Estate was established with a clear purpose: to provide rental providers with the kind of proactive, transparent, and deeply personal service that is all too rare in the industry.
+                    Ingrid Elliott Real Estate was established with a clear purpose: to provide rental providers with a boutique property management service that is transparent, responsive, and genuinely invested in protecting both your property and your peace of mind. By limiting the number of properties she manages, Ingrid is able to deliver the level of care, communication, and attention to detail that larger agencies often cannot.
                   </p>
                 </div>
               </div>
@@ -63,7 +60,7 @@ export default function About() {
           <FadeIn>
             <blockquote>
               <p className="font-serif text-2xl lg:text-3xl text-brand-charcoal font-light leading-relaxed italic">
-                "Every property has a story. My role is to protect and elevate that story — with the care, expertise, and attention it deserves."
+                "Every property deserves exceptional care. My role is to protect your investment with the expertise, attention, and commitment it deserves."
               </p>
               <footer className="mt-8">
                 <span className="text-xs tracking-ultra-wide uppercase font-sans text-brand-sage">
