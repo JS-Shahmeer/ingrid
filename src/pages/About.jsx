@@ -106,7 +106,7 @@ export default function About() {
 
       {/* CTA */}
       <section className="border-t border-brand-sage/10 bg-[#2F2F2F]">
-        <div className="max-w-3xl mx-auto px-6 lg:px-12 py-24 lg:py-28 text-center">
+        <div className="max-w-3xl mx-auto px-6 lg:px-12 py-12 lg:py-20 text-center">
           <FadeIn>
             <SectionLabel className="text-brand-sage-light mb-6 block">Let's Connect</SectionLabel>
             <h2 className="font-serif text-3xl text-white font-light mb-6">

@@ -36,49 +36,55 @@ export default function RentalAppraisals() {
       </section>
 
       {/* Content */}
-      <section className="py-24 lg:py-32">
+      <section className="py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
+          <div className="grid gap-16 lg:grid-cols-2 lg:items-stretch">
             <FadeIn>
-              <h2 className="font-serif text-3xl text-brand-charcoal font-light mb-8">
-                Understanding Your<br />Investment's Potential
-              </h2>
-              <div className="space-y-5 text-sm font-sans font-light text-brand-charcoal/60 leading-relaxed">
-                <p>
-                  Whether you're considering leasing your property for the first time, reviewing your current rental return, or exploring an investment purchase — understanding the true rental value of a property is essential to making informed decisions.
-                </p>
-                <p>
-                  Ingrid provides complimentary rental appraisals for investment properties across Melbourne's northern suburbs and surrounds. Each appraisal draws on current market data, local knowledge, and decades of experience to give you a clear, honest picture of your property's rental potential.
-                </p>
-                <p>
-                  This is not a high-pressure sales pitch. It is a straightforward, professional assessment — and the beginning of a conversation about how your property can work harder for you.
-                </p>
+              <div className="max-w-2xl lg:pr-8">
+                <h2 className="font-serif text-3xl lg:text-4xl text-brand-charcoal font-light mb-8">
+                  Understanding Your<br />Investment's Potential
+                </h2>
+                <div className="space-y-6 text-sm lg:text-base font-sans font-light text-brand-charcoal/70 leading-relaxed mb-10">
+                  <p>
+                    Whether you're considering leasing your property for the first time, reviewing your current rental return, or exploring an investment purchase — understanding the true rental value of a property is essential to making informed decisions.
+                  </p>
+                  <p>
+                    Ingrid provides complimentary rental appraisals for investment properties across Melbourne's northern suburbs and surrounds. Each appraisal draws on current market data, local knowledge, and decades of experience to give you a clear, honest picture of your property's rental potential.
+                  </p>
+                  <p>
+                    This is not a high-pressure sales pitch. It is a straightforward, professional assessment — and the beginning of a conversation about how your property can work harder for you.
+                  </p>
+                </div>
+                <div className="rounded-[2rem] border border-brand-border bg-white p-8 lg:p-10 shadow-[0_32px_120px_-80px_rgba(45,36,29,0.15)]">
+                  <SectionLabel className="mb-6 block">What to Expect</SectionLabel>
+                  <div className="grid gap-4">
+                    {[
+                      { step: "01", text: "Share your property details via the enquiry form or a quick phone call." },
+                      { step: "02", text: "Ingrid will review comparable rentals and current market conditions in your area." },
+                      { step: "03", text: "You'll receive a clear rental assessment with an honest, data-informed rental range." },
+                      { step: "04", text: "If you'd like to proceed, we'll discuss leasing strategy and next steps — at your pace." },
+                    ].map((item) => (
+                      <div key={item.step} className="flex gap-4">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-sage/10 text-brand-sage font-serif text-lg">
+                          {item.step}
+                        </div>
+                        <p className="text-sm lg:text-base font-sans text-brand-charcoal/70 leading-relaxed">
+                          {item.text}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.15}>
-              <img
-                src={DISCUSSION_IMG}
-                alt="Property consultant reviewing appraisal report with an investor"
-                className="w-full aspect-4/3 object-cover mb-8"
-              />
-              <div className="bg-white p-8 lg:p-12 border border-brand-border">
-                <SectionLabel className="mb-6 block">What to Expect</SectionLabel>
-                <div className="space-y-6">
-                  {[
-                    { step: "01", text: "Share your property details via the enquiry form or a quick phone call." },
-                    { step: "02", text: "Ingrid will review comparable rentals and current market conditions in your area." },
-                    { step: "03", text: "You'll receive a clear rental assessment with an honest, data-informed rental range." },
-                    { step: "04", text: "If you'd like to proceed, we'll discuss leasing strategy and next steps — at your pace." },
-                  ].map((item) => (
-                    <div key={item.step} className="flex gap-4">
-                      <span className="font-serif text-brand-sage text-lg">{item.step}</span>
-                      <p className="text-sm font-sans font-light text-brand-charcoal/60 leading-relaxed">
-                        {item.text}
-                      </p>
-                    </div>
-                  ))}
-                </div>
+              <div className="h-full rounded-[2rem] overflow-hidden border border-brand-border shadow-2xl shadow-brand-charcoal/10">
+                <img
+                  src={DISCUSSION_IMG}
+                  alt="Property consultant reviewing appraisal report with an investor"
+                  className="h-full w-full min-h-[28rem] object-cover"
+                />
               </div>
             </FadeIn>
           </div>
@@ -87,7 +93,7 @@ export default function RentalAppraisals() {
 
       {/* CTA */}
       <section className="border-t border-brand-sage/10 bg-[#2F2F2F]">
-        <div className="max-w-3xl mx-auto px-6 lg:px-12 py-24 lg:py-28 text-center">
+        <div className="max-w-3xl mx-auto px-6 lg:px-12 py-12 lg:py-20 text-center">
           <FadeIn>
             <SectionLabel className="text-brand-sage-light mb-6 block">Get Started</SectionLabel>
             <h2 className="font-serif text-3xl text-white font-light mb-6">

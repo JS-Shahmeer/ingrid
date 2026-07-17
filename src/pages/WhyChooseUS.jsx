@@ -65,8 +65,8 @@ export default function WhyChooseUs() {
       <section className="border-t border-brand-sage/10">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            <FadeIn>
-              <div className="lg:sticky lg:top-32">
+            <FadeIn className="lg:sticky lg:top-32">
+              <div >
                 <img
                   src={DETAIL_IMG}
                   alt="Architectural detail — premium interior hardware"
@@ -80,7 +80,7 @@ export default function WhyChooseUs() {
 
             <div>
               <FadeIn>
-                <SectionLabel className="mb-8 block">Common Concerns, Considered Solutions</SectionLabel>
+                <h2 className="block font-serif text-3xl text-brand-charcoal font-light mb-8">Common Concerns, Considered Solutions</h2>
               </FadeIn>
               <div className="space-y-12">
                 {problems.map((item, i) => (
@@ -113,7 +113,7 @@ export default function WhyChooseUs() {
 
       {/* CTA */}
       <section className="border-t border-brand-sage/10 bg-[#2F2F2F]">
-        <div className="max-w-3xl mx-auto px-6 lg:px-12 py-24 lg:py-28 text-center">
+        <div className="max-w-3xl mx-auto px-6 lg:px-12 py-12 lg:py-20 text-center">
           <FadeIn>
             <SectionLabel className="text-brand-sage-light mb-6 block">Ready?</SectionLabel>
             <h2 className="font-serif text-3xl text-white font-light mb-6">
