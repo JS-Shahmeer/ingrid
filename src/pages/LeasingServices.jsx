@@ -15,10 +15,10 @@ const pillars = [
   {
     title: "Private & Open Inspections",
     description:
-      "Inspections are conducted with professionalism and care — presenting your property as a home, not a transaction. Every prospective tenant is met, assessed, and responded to personally.",
+      "Inspections are conducted with professionalism and care — presenting your property as a home, not a transaction. Every prospective renter is met, assessed, and responded to personally.",
   },
   {
-    title: "Premium Tenant Selection",
+    title: "Premium Renter Selection",
     description:
       "Every tenancy application is carefully assessed in accordance with the Residential Tenancies Act and relevant legislation. Through thorough reference checks, verification of employment and income where appropriate, and a review of rental history, we provide rental providers with the information they need to make informed, compliant leasing decisions.",
   },
@@ -38,10 +38,10 @@ export default function LeasingServices() {
           <FadeIn>
             <SectionLabel className="mb-4 block">Services</SectionLabel>
             <h1 className="font-serif text-4xl lg:text-6xl text-brand-charcoal font-light leading-tight max-w-3xl">
-              Leasing & Tenant Placement
+              Leasing & Renter Placement
             </h1>
             <p className="mt-6 text-brand-charcoal/60 font-sans font-light text-lg max-w-xl">
-              Protecting your investment from the very first day — through considered tenant selection and meticulous lease preparation.
+              Protecting your investment from the very first day — through considered renter selection and meticulous lease preparation.
             </p>
           </FadeIn>
         </div>
@@ -86,7 +86,7 @@ export default function LeasingServices() {
             {pillars.map((pillar, i) => (
               <FadeIn key={pillar.title} delay={(i % 2) * 0.1}>
                 <div>
-                  <div className="w-8 h-[0.5px] bg-brand-sage mb-6" />
+                  <div className="w-8 h-[0.5px] bg-[#6E7B48] mb-6" />
                   <h3 className="font-serif text-xl text-brand-charcoal mb-4">{pillar.title}</h3>
                   <p className="text-sm font-sans font-light text-brand-charcoal/60 leading-relaxed">
                     {pillar.description}
@@ -107,10 +107,10 @@ export default function LeasingServices() {
       </section>
 
       {/* CTA */}
-      <section className="border-t border-brand-sage/10 bg-[#2F2F2F]">
+      <section className="border-t border-brand-sage/10 bg-[#6E7B48]">
         <div className="max-w-3xl mx-auto px-6 lg:px-12 py-12 lg:py-20 text-center">
           <FadeIn>
-            <SectionLabel className="text-brand-sage-light mb-6 block">Get Started</SectionLabel>
+            <SectionLabel className="text-white mb-6 block">Get Started</SectionLabel>
             <h2 className="font-serif text-3xl text-white font-light mb-6">
               Get Your Property Leased
             </h2>

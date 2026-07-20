@@ -44,7 +44,7 @@ export default function SiteHeader() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled ? "bg-brand-base/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
+        scrolled ? "bg-[#6E7B48]/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -110,7 +110,7 @@ export default function SiteHeader() {
                     {item.label}
                   </span>
                   <span
-                    className={`absolute -bottom-1 left-1/2 -translate-x-1/2 h-[0.5px] bg-brand-sage transition-all duration-400 ease-in-out ${
+                    className={`absolute -bottom-1 left-1/2 -translate-x-1/2 h-[0.5px] bg-[#6E7B48] transition-all duration-400 ease-in-out ${
                       isActive(item.path) ? "w-full" : "w-0 group-hover:w-full"
                     }`}
                   />

@@ -65,7 +65,7 @@ export default function RentalAppraisals() {
                       { step: "04", text: "If you'd like to proceed, we'll discuss leasing strategy and next steps — at your pace." },
                     ].map((item) => (
                       <div key={item.step} className="flex gap-4">
-                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-sage/10 text-brand-sage font-serif text-lg">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#6E7B48]/10 text-brand-sage font-serif text-lg">
                           {item.step}
                         </div>
                         <p className="text-sm lg:text-base font-sans text-brand-charcoal/70 leading-relaxed">
@@ -92,10 +92,10 @@ export default function RentalAppraisals() {
       </section>
 
       {/* CTA */}
-      <section className="border-t border-brand-sage/10 bg-[#2F2F2F]">
+      <section className="border-t border-brand-sage/10 bg-[#6E7B48]">
         <div className="max-w-3xl mx-auto px-6 lg:px-12 py-12 lg:py-20 text-center">
           <FadeIn>
-            <SectionLabel className="text-brand-sage-light mb-6 block">Get Started</SectionLabel>
+            <SectionLabel className="text-white mb-6 block">Get Started</SectionLabel>
             <h2 className="font-serif text-3xl text-white font-light mb-6">
               Request a Rental Appraisal
             </h2>

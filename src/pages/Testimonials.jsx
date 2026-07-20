@@ -22,7 +22,7 @@ const testimonials = [
     role: "Solicitor",
   },
   {
-    quote: "What stands out most is the personal service. There's no call centre, no being passed between staff. Ingrid knows our property, she knows our tenants, and she proactively communicates everything we need to know.",
+    quote: "What stands out most is the personal service. There's no call centre, no being passed between staff. Ingrid knows our property, she knows our Renters, and she proactively communicates everything we need to know.",
     name: "Placeholder Name",
     role: "Property Investor",
   },
@@ -67,7 +67,7 @@ export default function Testimonials() {
                     "{t.quote}"
                   </p>
                   <footer className="mt-8 flex items-center gap-4">
-                    <div className="w-10 h-10 rounded-full bg-brand-sage/20 flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-[#6E7B48]/20 flex items-center justify-center">
                       <span className="font-serif text-brand-sage text-sm">
                         {t.role.charAt(0)}
                       </span>
@@ -95,10 +95,10 @@ export default function Testimonials() {
       </section>
 
       {/* CTA */}
-      <section className="border-t border-brand-sage/10 bg-[#2F2F2F]">
+      <section className="border-t border-brand-sage/10 bg-[#6E7B48]">
         <div className="max-w-3xl mx-auto px-6 lg:px-12 py-12 lg:py-20 text-center">
           <FadeIn>
-            <SectionLabel className="text-brand-sage-light mb-6 block">Join Them</SectionLabel>
+            <SectionLabel className="text-white mb-6 block">Join Them</SectionLabel>
             <h2 className="font-serif text-3xl text-white font-light mb-6">
               Ready to Experience the Difference?
             </h2>

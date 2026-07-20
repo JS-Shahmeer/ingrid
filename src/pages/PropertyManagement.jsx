@@ -10,12 +10,12 @@ const services = [
   {
     title: "Residential Property Management",
     description:
-      "Comprehensive, day-to-day management of your investment property — handled with the same care and diligence as if it were my own. From tenant communication to owner reporting, every detail is attended to personally.",
+      "Comprehensive, day-to-day management of your investment property — handled with the same care and diligence as if it were my own. From renter communication to owner reporting, every detail is attended to personally.",
   },
   {
     title: "Routine Inspections",
     description:
-      "Regular, thorough inspections with detailed photographic reports. These are not formalities — they are opportunities to identify potential issues early, maintain your property's condition, and ensure tenant compliance.",
+      "Regular, thorough inspections with detailed photographic reports. These are not formalities — they are opportunities to identify potential issues early, maintain your property's condition, and ensure renter compliance.",
   },
   {
     title: "Maintenance Coordination",
@@ -99,7 +99,7 @@ export default function PropertyManagement() {
             {services.map((service, i) => (
               <FadeIn key={service.title} delay={(i % 2) * 0.1}>
                 <div>
-                  <div className="w-8 h-[0.5px] bg-brand-sage mb-6" />
+                  <div className="w-8 h-[0.5px] bg-[#6E7B48] mb-6" />
                   <h3 className="font-serif text-xl text-brand-charcoal mb-4">{service.title}</h3>
                   <p className="text-sm font-sans font-light text-brand-charcoal/60 leading-relaxed">
                     {service.description}
@@ -139,10 +139,10 @@ export default function PropertyManagement() {
       </section>
 
       {/* CTA */}
-      <section className="border-t border-brand-sage/10 bg-[#2F2F2F]">
+      <section className="border-t border-brand-sage/10 bg-[#6E7B48]">
         <div className="max-w-3xl mx-auto px-6 lg:px-12 py-12 lg:py-20 text-center">
           <FadeIn>
-            <SectionLabel className="text-brand-sage-light mb-6 block">Get Started</SectionLabel>
+            <SectionLabel className="text-white mb-6 block">Get Started</SectionLabel>
             <h2 className="font-serif text-3xl text-white font-light mb-6">
               Enquire About Managing Your Property
             </h2>

@@ -16,7 +16,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#2F2F2F] py-12">
+    <footer className="bg-[#6E7B48] py-12">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-16">
         <div className="flex flex-col md:flex-row items-start justify-between gap-10">
           {/* Brand */}
@@ -40,7 +40,7 @@ export default function Footer() {
               <Link
                 key={link.path}
                 to={link.path}
-                className="font-body text-[11px] tracking-[0.2em] uppercase text-white/40 hover:text-white transition-colors duration-300"
+                className="font-body text-[11px] tracking-[0.2em] uppercase text-white/70 hover:text-white transition-colors duration-300"
               >
                 {link.label}
               </Link>
@@ -51,25 +51,25 @@ export default function Footer() {
           <div className="md:text-right">
             <a
               href="tel:0400104682"
-              className="block font-body text-[13px] text-white/50 hover:text-white transition-colors"
+              className="block font-body text-[13px] text-white/80 hover:text-white transition-colors"
             >
               0400 104 682
             </a>
             <a
-              href="mailto:ingrid@ingridelliot.com.au"
-              className="block font-body text-[13px] text-white/50 hover:text-white transition-colors mt-1"
+              href="mailto:hello@ingridelliott.com.au"
+              className="block font-body text-[13px] text-white/80 hover:text-white transition-colors mt-1"
             >
-              ingrid@ingridelliot.com.au
+              hello@ingridelliott.com.au
             </a>
           </div>
         </div>
 
         {/* Divider */}
-        <div className="mt-12 h-px bg-white/10" />
+        <div className="mt-12 h-px bg-white/20" />
 
         {/* Bottom Row */}
         <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <p className="font-body text-[11px] text-white/40">
+          <p className="font-body text-[11px] text-white/70">
             © {new Date().getFullYear()} Ingrid Elliott Real Estate. All rights reserved.
           </p>
           {/* <div className="flex gap-6">

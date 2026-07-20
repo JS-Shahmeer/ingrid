@@ -10,7 +10,7 @@ export default function About() {
   };
  
   return (
-    <section id="about" className="py-24 md:py-36 bg-[#F7F3F0]">
+    <section id="about" className="py-16 md:py-24 bg-[#F7F3F0]">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-16">
         <div className="flex flex-col md:flex-row items-center gap-12 md:gap-20 lg:gap-28">
           {/* Portrait */}
@@ -41,7 +41,7 @@ export default function About() {
             className="w-full md:w-7/12"
           >
             <span className="font-body text-[11px] tracking-[0.3em] uppercase text-[#8C7D70]">
-              The Narrative
+              About
             </span>
  
             <h2 className="mt-4 font-display text-3xl md:text-5xl font-light text-[#1A1A1A] leading-tight">
@@ -71,7 +71,7 @@ export default function About() {
  
             <button
               onClick={scrollToContact}
-              className="mt-10 font-body text-[11px] tracking-[0.2em] uppercase px-10 py-3.5 bg-[#2F2F2F] text-white hover:bg-[#6E7B48] transition-all duration-500"
+              className="mt-10 font-body text-[11px] tracking-[0.2em] uppercase px-10 py-3.5 bg-[#6E7B48] text-white hover:bg-[#6E7B48] transition-all duration-500"
             >
               Request a Private Consultation
             </button>

@@ -18,8 +18,8 @@ const problems = [
   },
   {
     problem: "Extended vacancy periods",
-    solution: "Premium tenant placement and faster leasing",
-    description: "Strategic advertising, professional presentation, and a quality-driven approach to tenant selection — designed to minimise vacancy and maximise return.",
+    solution: "Premium renter placement and faster leasing",
+    description: "Strategic advertising, professional presentation, and a quality-driven approach to renter selection — designed to minimise vacancy and maximise return.",
   },
   {
     problem: "Maintenance headaches and delays",
@@ -28,7 +28,7 @@ const problems = [
   },
   {
     problem: "Difficult or unsuitable renters",
-    solution: "Rigorous tenant selection processes",
+    solution: "Rigorous renter selection processes",
     description: "Every tenancy application is carefully assessed in accordance with the Residential Tenancies Act and relevant legislation. We provide rental providers with the information they need to make informed, compliant leasing decisions.",
   },
   {
@@ -92,7 +92,7 @@ export default function WhyChooseUs() {
                       <p className="font-serif text-lg text-brand-charcoal mb-4">
                         {item.problem}
                       </p>
-                      <div className="w-8 h-[0.5px] bg-brand-sage/40 mb-4" />
+                      <div className="w-8 h-[0.5px] bg-[#6E7B48]/40 mb-4" />
                       <p className="text-xs tracking-ultra-wide uppercase font-sans text-brand-sage mb-2">
                         The resolution
                       </p>
@@ -112,10 +112,10 @@ export default function WhyChooseUs() {
       </section>
 
       {/* CTA */}
-      <section className="border-t border-brand-sage/10 bg-[#2F2F2F]">
+      <section className="border-t border-brand-sage/10 bg-[#6E7B48]">
         <div className="max-w-3xl mx-auto px-6 lg:px-12 py-12 lg:py-20 text-center">
           <FadeIn>
-            <SectionLabel className="text-brand-sage-light mb-6 block">Ready?</SectionLabel>
+            <SectionLabel className="text-white mb-6 block">Ready?</SectionLabel>
             <h2 className="font-serif text-3xl text-white font-light mb-6">
               Experience the Difference
             </h2>

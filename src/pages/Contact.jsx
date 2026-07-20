@@ -80,7 +80,7 @@ export default function Contact() {
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   {enquiryType === "rental-appraisal" && (
-                    <div className="bg-brand-sage/5 border border-brand-sage/10 px-4 py-3 mb-2">
+                    <div className="bg-[#6E7B48]/5 border border-brand-sage/10 px-4 py-3 mb-2">
                       <p className="text-xs tracking-ultra-wide uppercase font-sans text-brand-sage">
                         Rental Appraisal Enquiry
                       </p>
@@ -152,7 +152,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={submitting}
-                    className="mt-4 text-xs tracking-ultra-wide uppercase font-sans text-white bg-brand-sage px-8 py-3 hover:bg-brand-sage-dark transition-colors duration-300 disabled:opacity-50"
+                    className="mt-4 text-xs tracking-ultra-wide uppercase font-sans text-white bg-[#6E7B48] px-8 py-3 hover:bg-[#6E7B48]-dark transition-colors duration-300 disabled:opacity-50"
                   >
                     {submitting ? "Sending..." : "Send Message"}
                   </button>
@@ -165,38 +165,38 @@ export default function Contact() {
               <div className="space-y-10">
                 <div>
                   <SectionLabel className="mb-4 block">Direct Contact</SectionLabel>
-                  <div className="space-y-4 text-sm font-sans font-light text-brand-charcoal/70">
-                    <p>
+                  <div className="space-y-4 flex md:flex-row flex-col md:flex-wrap text-sm font-sans font-light text-brand-charcoal/70">
+                    <p className="md:w-1/2">
                       <span className="text-xs tracking-ultra-wide uppercase text-brand-charcoal/40 block mb-1">Mobile</span>
                       <a href="tel:0400104682" className="hover:text-brand-sage transition-colors">
                         0400 104 682
                       </a>
                     </p>
-                    <p>
+                    <p className="md:w-1/2">
                       <span className="text-xs tracking-ultra-wide uppercase text-brand-charcoal/40 block mb-1">Email</span>
                       <a href="mailto:hello@ingridelliott.com.au" className="hover:text-brand-sage transition-colors">
                         hello@ingridelliott.com.au
                       </a>
                     </p>
-                    <p>
+                    <p className="md:w-1/2">
                       <span className="text-xs tracking-ultra-wide uppercase text-brand-charcoal/40 block mb-1">Address</span>
-                      2/10 Willis Street<br />Melbourne 3088, Victoria
+                      PO Box 419 <br /> Greensborough VIC 3088
                     </p>
-                    <p>
+                    <p className="md:w-1/2">
                       <span className="text-xs tracking-ultra-wide uppercase text-brand-charcoal/40 block mb-1">Hours</span>
                       Monday – Friday<br />9:00am – 5:00pm
                     </p>
                   </div>
                 </div>
 
-                <div className="w-full h-[0.5px] bg-brand-sage/20" />
+                <div className="w-full h-[0.5px] bg-[#6E7B48]/20" />
 
-                <div>
+                {/* <div>
                   <SectionLabel className="mb-4 block">Ingrid Elliott, Director</SectionLabel>
                   <p className="text-sm font-sans font-light text-brand-charcoal/60 leading-relaxed">
                     Ingrid personally handles all enquiries and consultations. Whether you prefer a phone call, email, or an in-person meeting — she looks forward to hearing from you.
                   </p>
-                </div>
+                </div> */}
 
                 {/* Office Image + Map Placeholder */}
                 <img
@@ -216,7 +216,7 @@ export default function Contact() {
       </section>
 
       {/* Suburbs */}
-      <section className="border-t border-brand-sage/10">
+      {/* <section className="border-t border-brand-sage/10">
         <div className="max-w-5xl mx-auto px-6 lg:px-12 py-20 lg:py-24 text-center">
           <FadeIn>
             <SectionLabel className="mb-6 block">Suburbs We Service</SectionLabel>
@@ -225,7 +225,7 @@ export default function Contact() {
             </p>
           </FadeIn>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

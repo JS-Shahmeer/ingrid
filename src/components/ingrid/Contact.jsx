@@ -28,7 +28,7 @@ export default function Contact() {
   };
  
   return (
-    <section id="contact" className="py-24 md:py-36 bg-[#EFEBE7]">
+    <section id="contact" className="py-16 md:py-24 bg-[#6E7B48]">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-16">
         <div className="flex flex-col md:flex-row gap-16 md:gap-24 lg:gap-32">
           {/* Left — Info */}
@@ -39,17 +39,17 @@ export default function Contact() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full md:w-5/12"
           >
-            <span className="font-body text-[11px] tracking-[0.3em] uppercase text-[#8C7D70]">
+            <span className="font-body text-[11px] tracking-[0.3em] uppercase text-white/70">
               Get in Touch
             </span>
-            <h2 className="mt-4 font-display text-3xl md:text-5xl font-light text-[#1A1A1A] leading-tight">
+            <h2 className="mt-4 font-display text-3xl md:text-5xl font-light text-white leading-tight">
               Begin the
               <br />
               <em className="font-light">Conversation</em>
             </h2>
-            <div className="mt-6 w-12 h-px bg-[#8C7D70]/40" />
+            <div className="mt-6 w-12 h-px bg-white/40" />
  
-            <p className="mt-8 font-body text-[15px] leading-[1.8] text-[#1A1A1A]/55">
+            <p className="mt-8 font-body text-[15px] leading-[1.8] text-white/75">
               Whether you're seeking a trusted partner for your property
               portfolio or simply wish to explore what boutique management
               looks like — Ingrid welcomes the conversation.
@@ -57,28 +57,28 @@ export default function Contact() {
  
             <div className="mt-10 space-y-5">
               <a href="tel:0400104682" className="flex items-center gap-4 group">
-                <div className="w-10 h-10 flex items-center justify-center border border-[#8C7D70]/20 group-hover:border-[#3E4A52] transition-colors">
-                  <Phone size={16} strokeWidth={1.5} className="text-[#8C7D70] group-hover:text-[#3E4A52] transition-colors" />
+                <div className="w-10 h-10 flex items-center justify-center border border-white/25 group-hover:border-white/50 transition-colors">
+                  <Phone size={16} strokeWidth={1.5} className="text-white/80 group-hover:text-white transition-colors" />
                 </div>
-                <span className="font-body text-[14px] text-[#1A1A1A]/70 group-hover:text-[#1A1A1A] transition-colors">
+                <span className="font-body text-[14px] text-white/80 group-hover:text-white transition-colors">
                   0400 104 682
                 </span>
               </a>
  
-              <a href="mailto:ingrid@ingridelliot.com.au" className="flex items-center gap-4 group">
-                <div className="w-10 h-10 flex items-center justify-center border border-[#8C7D70]/20 group-hover:border-[#3E4A52] transition-colors">
-                  <Mail size={16} strokeWidth={1.5} className="text-[#8C7D70] group-hover:text-[#3E4A52] transition-colors" />
+              <a href="mailto:hello@ingridelliott.com.au" className="flex items-center gap-4 group">
+                <div className="w-10 h-10 flex items-center justify-center border border-white/25 group-hover:border-white/50 transition-colors">
+                  <Mail size={16} strokeWidth={1.5} className="text-white/80 group-hover:text-white transition-colors" />
                 </div>
-                <span className="font-body text-[14px] text-[#1A1A1A]/70 group-hover:text-[#1A1A1A] transition-colors">
-                  ingrid@ingridelliot.com.au
+                <span className="font-body text-[14px] text-white/80 group-hover:text-white transition-colors">
+                  hello@ingridelliott.com.au
                 </span>
               </a>
  
               <div className="flex items-center gap-4">
-                <div className="w-10 h-10 flex items-center justify-center border border-[#8C7D70]/20">
-                  <MapPin size={16} strokeWidth={1.5} className="text-[#8C7D70]" />
+                <div className="w-10 h-10 flex items-center justify-center border border-white/25">
+                  <MapPin size={16} strokeWidth={1.5} className="text-white/80" />
                 </div>
-                <span className="font-body text-[14px] text-[#1A1A1A]/70">
+                <span className="font-body text-[14px] text-white/80">
                   Melbourne, Victoria
                 </span>
               </div>
@@ -96,7 +96,7 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <label className="block font-body text-[11px] tracking-[0.2em] uppercase text-[#8C7D70] mb-2">
+                  <label className="block font-body text-[11px] tracking-[0.2em] uppercase text-white/70 mb-2">
                     Full Name
                   </label>
                   <input
@@ -105,12 +105,12 @@ export default function Contact() {
                     value={form.name}
                     onChange={handleChange}
                     required
-                    className="w-full bg-transparent border-b border-[#8C7D70]/30 focus:border-[#3E4A52] outline-none py-3 font-body text-[15px] text-[#1A1A1A] placeholder:text-[#8C7D70]/40 transition-colors"
+                    className="w-full bg-transparent border-b border-white/30 focus:border-white outline-none py-3 font-body text-[15px] text-white placeholder:text-white/40 transition-colors"
                     placeholder="Your name"
                   />
                 </div>
                 <div>
-                  <label className="block font-body text-[11px] tracking-[0.2em] uppercase text-[#8C7D70] mb-2">
+                  <label className="block font-body text-[11px] tracking-[0.2em] uppercase text-white/70 mb-2">
                     Email
                   </label>
                   <input
@@ -119,14 +119,14 @@ export default function Contact() {
                     value={form.email}
                     onChange={handleChange}
                     required
-                    className="w-full bg-transparent border-b border-[#8C7D70]/30 focus:border-[#3E4A52] outline-none py-3 font-body text-[15px] text-[#1A1A1A] placeholder:text-[#8C7D70]/40 transition-colors"
+                    className="w-full bg-transparent border-b border-white/30 focus:border-white outline-none py-3 font-body text-[15px] text-white placeholder:text-white/40 transition-colors"
                     placeholder="your@email.com"
                   />
                 </div>
               </div>
  
               <div>
-                <label className="block font-body text-[11px] tracking-[0.2em] uppercase text-[#8C7D70] mb-2">
+                <label className="block font-body text-[11px] tracking-[0.2em] uppercase text-white/70 mb-2">
                   Phone
                 </label>
                 <input
@@ -134,7 +134,7 @@ export default function Contact() {
                   name="phone"
                   value={form.phone}
                   onChange={handleChange}
-                  className="w-full bg-transparent border-b border-[#8C7D70]/30 focus:border-[#3E4A52] outline-none py-3 font-body text-[15px] text-[#1A1A1A] placeholder:text-[#8C7D70]/40 transition-colors"
+                  className="w-full bg-transparent border-b border-white/30 focus:border-white outline-none py-3 font-body text-[15px] text-white placeholder:text-white/40 transition-colors"
                   placeholder="04XX XXX XXX"
                 />
               </div>
@@ -149,7 +149,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full bg-transparent border-b border-[#8C7D70]/30 focus:border-[#3E4A52] outline-none py-3 font-body text-[15px] text-[#1A1A1A] placeholder:text-[#8C7D70]/40 transition-colors resize-none"
+                  className="w-full bg-transparent border-b border-white/30 focus:border-white outline-none py-3 font-body text-[15px] text-white placeholder:text-white/40 transition-colors resize-none"
                   placeholder="Tell us about your property needs..."
                 />
               </div>
@@ -157,7 +157,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={sending}
-                className="mt-4 inline-flex items-center gap-3 font-body text-[11px] tracking-[0.2em] uppercase px-10 py-3.5 bg-[#2F2F2F] text-white hover:bg-[#6E7B48] disabled:opacity-50 transition-all duration-500"
+                className="mt-4 inline-flex items-center gap-3 font-body text-[11px] tracking-[0.2em] uppercase px-10 py-3.5 bg-white text-[#6E7B48] hover:bg-[#F5F5F2] disabled:opacity-50 transition-all duration-500"
               >
                 {sending ? "Sending..." : "Send Enquiry"}
                 <Send size={14} strokeWidth={1.5} />

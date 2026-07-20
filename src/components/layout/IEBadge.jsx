@@ -10,7 +10,7 @@ export default function IEBadge({ size = "sm", className = "" }) {
 
   return (
     <div
-      className={`rounded-full bg-brand-sage flex items-center justify-center font-serif text-white tracking-wider ${sizeClasses[size]} ${className}`}
+      className={`rounded-full bg-[#6E7B48] flex items-center justify-center font-serif text-white tracking-wider ${sizeClasses[size]} ${className}`}
     >
       IE
     </div>
